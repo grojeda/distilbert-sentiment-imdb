@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+
+# Hugging Face / Transformers outputs
+distilbert-sentiment-imdb/
+tmp-eval/
+checkpoint-*/
+
+# Model files
+*.bin
+*.pt
+*.safetensors
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
